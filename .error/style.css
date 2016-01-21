@@ -1,0 +1,78 @@
+/*
+	Author: Ricky Smith
+	Copyright: Ricky Smith
+	
+	Designed and developed by Ricky Smith - R-Smith Web Development - http://r-smith.at
+*/
+
+/* Main Styles */
+
+body {
+	background: white;
+	font-family: play, helvetica, arial;
+	color: white;
+	text-shadow: 1px 1px 0px black;
+}
+
+p {
+	position: absolute;
+	width: 250px;
+	text-align: center;
+	left: 50%;
+	margin-left: -125px;
+	bottom: 0px;
+}
+
+a {
+	color: white;
+	cursor: pointer;
+}
+h1 {
+	text-align: center;
+	margin: 350px 0 0 0;
+	
+}
+
+/* Header and Nav Styles */
+
+header {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	/*background: rgb(140,150,160);*/
+	background: #8C96A0;
+}
+
+nav {
+	margin: 140px 0px 0px 0px;
+	text-align: center;
+	font-size: 22px;
+}
+nav a {
+	margin: 0px 10px 0px 10px;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	position: absolute;
+	left: 50%;
+	top: 90px;
+	width: 600px;
+	margin-left: -300px;
+	height: 156px;
+	opacity: .75;
+}
+
+
+section {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

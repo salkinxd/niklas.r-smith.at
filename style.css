@@ -1,0 +1,148 @@
+html,body {margin:0; font-family: arial;}
+
+body {
+    background:url(img/barn.jpg);
+    background-size:100% 100%;
+    background-position:bottom;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+nav {
+    position:fixed;
+    text-align:center;
+    top:0;
+    left:0;
+    right:0;
+    height:30px;
+    border-bottom:2px solid black;
+    /*background: rgba(0,0,0,.6);*/
+    background: rgba(0,0,0,.3);
+    padding-top:10px;
+    font-family: 'Russo One', sans-serif;
+    z-index:999;
+    
+}
+nav a {
+    margin:20px;
+    text-decoration:none;
+    color:lightgray;
+    cursor:pointer;
+}
+nav a:hover {
+    text-decoration:underline;
+}
+h1 {
+    text-align:center;
+    margin-top:0px;
+    font-family: 'Russo One', sans-serif;
+    font-size:50px;
+    border-bottom-width:2px;
+    border-bottom-style:dashed;
+    border-bottom-color:black;
+    border-top-width:2px;
+    border-top-style:dashed;
+    border-top-color:black;
+    text-transform:uppercase;
+    color: black;
+}
+h1:hover {
+    color:azure;
+}
+h1 a:hover {
+    color:azure;
+}
+h1 a:active {
+    color:azure;
+}
+h1 a:visited {
+    color:azure;
+}
+p, ul {
+    font-size:25px;
+}
+p {
+    text-align:center;
+}
+ul {
+    text-align:left;
+}
+#s1 {
+    position:absolute;
+    top:100%;
+    background:url(img/s1.jpg);
+}
+#s2 {
+    position:absolute;
+    top:200%;
+    background:url(img/s2.jpg);
+}
+#s3 {
+    position:absolute;
+    top:300%;
+    background:url(img/s3.jpg);
+}
+#s1,#s2,#s3 {
+    text-shadow: 0px 0px 6px lightgray;
+    color:white;
+    width:100%;
+    height:100%;
+    left:0;
+    right:0;
+    z-index:998;
+    background-size:100% 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#top {
+    position:absolute;
+    float:right;
+    margin-top:0px;
+    z-index:1000;
+    color:gray;
+    right:10px;
+}
+img {
+    position:absolute;
+    left:50%;
+    margin-left:-375px;
+    top:50%;
+    margin-top:-130px;
+    -webkit-transition: box-shadow 0.5s;
+}
+img:hover {
+    box-shadow:0px 0px 10px black;
+    -webkit-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -ms-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+::selection {
+    box-shadow:0 0 0 black;
+}
+#b {
+    text-shadow: 0px 0px 10px black;
+    font-size: 28px;
+}
+#u {
+    text-decoration: underline;
+    font-size: 28px;
+}
+#left{
+    text-align: left;
+}
+a:hover {
+    color: rgb(0, 0, 255)
+}
+a:link {
+    text-shadow: 0px 0px 10px black;
+}
+a:visited {
+    color: rgb(100, 100, 250);
+    text-shadow: 0px 0px 10px black;
+}
+a:active {
+    color: rgb(100, 100, 250);
+    text-shadow: 0px 0px 10px black;
+}

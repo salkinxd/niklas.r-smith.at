@@ -1,0 +1,61 @@
+/*
+	Author: Ricky Smith
+	Copyright: Ricky Smith
+	
+	Designed and developed by Ricky Smith - R-Smith Web Development - http://r-smith.at
+	
+	
+	This CSS file is responsible for the images on the website and automatically switches to retina if required.
+	
+	Resolution of Site-Preview images: {
+		width: 650px;
+		height: 512px;
+	}
+*/
+
+/* Image Frames */
+.site-preview {
+	width: 100%;
+	height: 600px;
+	
+}
+
+
+/* Standard Images */
+#img-leichtsinn {
+	background: url("img/leichtsinn.jpg");
+	background-size: 100% 100%;
+}
+
+#img-monger {
+	background: url("img/monger.jpg");
+	background-size: 100% 100%;
+}
+
+#logo {
+	background: url("img/logo.png");
+	background-size: 100% 100%;
+}
+
+
+
+
+/* Retina Images */
+@media (-webkit-min-device-pixel-ratio: 2) {
+	
+	#img-leichtsinn {
+		background: url("img/ls.jpg");
+		background-size: 100% 100%;
+	}
+	
+	#img-monger {
+		background: url("img/m.jpg");
+		background-size: 100% 100%;
+	}
+	
+	#logo {
+		background: url("img/logo_2x.png");
+		background-size: 100% 100%;
+	}
+	
+}
